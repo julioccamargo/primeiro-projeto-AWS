@@ -23,7 +23,7 @@ O desafio consistia em publicar uma página web simples (HTML, CSS, JS) na nuvem
 
 Você pode acessar o site que foi implantado através deste projeto no seguinte link:
 
-**[https://www.seusite.com.br](https://www.seusite.com.br)** *(<-- Substitua pelo seu domínio)*
+**[https://www.meusite.com.br](https://www.meusite.com.br)**
 
 ---
 
