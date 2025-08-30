@@ -38,5 +38,5 @@ Você pode acessar o site que foi implantado através deste projeto no seguinte 
 
 ## 📂 Arquivos do Projeto
 
-* Guia de execução [aqui](https://github.com/julioccamargo/artigos/blob/main/01-como-criar-site-estatico-aws.md)
+* Guia de execução [**aqui**](https://github.com/julioccamargo/artigos/blob/main/01-como-criar-site-estatico-aws.md)
 * Arquivo [**main.tf**](main.tf) usado para IaC
