@@ -32,7 +32,7 @@ O desafio consistia em publicar uma página web simples (HTML, CSS, JS) na nuvem
 
 Você pode acessar o site que foi implantado através deste projeto no seguinte link:
 
-**[https://www.teste.com.br](https://www.teste.com.br)** (não comprei um domínio)
+**[https://www.teste.com.br](https://www.teste.com.br)** (não comprei um domínio e descobri durante o processo que para deixar no ar você PAGA kkkkk - parecia óbvio)
 
 ---
 
