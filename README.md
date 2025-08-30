@@ -6,17 +6,26 @@ Este é o primeiro projeto prático do meu roadmap de estudos em AWS, com o obje
 
 ## 🎯 Objetivo
 
-O desafio consistia em publicar uma página web simples (HTML, CSS, JS) na nuvem da AWS, utilizando os serviços essenciais para garantir que o site fosse acessível globalmente através de um domínio personalizado e com certificado de segurança.
+O desafio consistia em publicar uma página web simples (HTML, CSS, JS) na nuvem da AWS, utilizando os serviços essenciais para garantir que o site fosse acessível globalmente através de um domínio personalizado e com certificado de segurança. Opcional: Automatizar esse processo usando IaC
 
 ---
 
-## 🛠️ Serviços AWS Utilizados
+## 🛠️ Tecnologias Utilizadas
 
-* **Amazon S3:** Para armazenar os arquivos do site (`index.html`, `style.css`, etc.).
-* **Amazon CloudFront:** Para criar uma CDN (Content Delivery Network), distribuir o conteúdo globalmente e reduzir a latência.
-* **Amazon Route 53:** Para configurar o domínio personalizado e direcionar o tráfego para a distribuição do CloudFront.
-* **AWS Certificate Manager (ACM):** Para gerar e gerenciar o certificado SSL/TLS, garantindo o acesso via HTTPS.
+# Serviços AWS
+* Amazon EC2 (Elastic Compute Cloud)
+* Amazon RDS (Relational Database Service)
+* Amazon S3 (Simple Storage Service)
+* Amazon CloudFront
+* Amazon VPC (incluindo Security Groups)
+* Amazon Route 53
+* AWS Certificate Manager (ACM)
+* AWS IAM (Identity and Access Management)
 
+# Ferramentas e aplicações
+* WordPRess
+* Terraform
+* 
 ---
 
 ## 🚀 Resultado Final
