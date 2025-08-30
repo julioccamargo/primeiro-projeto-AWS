@@ -12,7 +12,7 @@ O desafio consistia em publicar uma página web simples (HTML, CSS, JS) na nuvem
 
 ## 🛠️ Tecnologias Utilizadas
 
-# Serviços AWS
+### Serviços AWS
 * Amazon EC2 (Elastic Compute Cloud)
 * Amazon RDS (Relational Database Service)
 * Amazon S3 (Simple Storage Service)
@@ -22,10 +22,10 @@ O desafio consistia em publicar uma página web simples (HTML, CSS, JS) na nuvem
 * AWS Certificate Manager (ACM)
 * AWS IAM (Identity and Access Management)
 
-# Ferramentas e aplicações
+### Ferramentas e aplicações
 * WordPRess
 * Terraform
-* 
+
 ---
 
 ## 🚀 Resultado Final
