@@ -52,9 +52,9 @@ Objetivo: Criar um banco de dados gerenciado e conectar a uma aplicação web (W
 *Preparação do Servidor (Instalação de PHP e Cliente MySQL) 
     1. Instalar o PHP: Conectar no EC2 via SSH e instalar o PHP e os módulos necessários para o WordPress. sudo yum install -y php php-mysqlnd php-gd
     2. Instalar o Cliente MySQL (Etapa de Debugging): Foi necessário um processo de investigação para instalar a ferramenta de linha de comando mysql.
-    3 Identificação do S.O.: O comando cat /etc/os-release revelou que o sistema era o Amazon Linux 2023.
-    4 Busca do Pacote: Comandos para versões antigas (yum, amazon-linux-extras) falharam. A solução foi pesquisar o pacote correto com dnf search mariadb. 
-    5 Instalação Correta: O pacote foi identificado como mariadb1011-client-utils e instalado com o comando: sudo dnf install mariadb1011-client-utils -y
+    3. Identificação do S.O.: O comando cat /etc/os-release revelou que o sistema era o Amazon Linux 2023.
+    4. Busca do Pacote: Comandos para versões antigas (yum, amazon-linux-extras) falharam. A solução foi pesquisar o pacote correto com dnf search mariadb.
+    5. Instalação Correta: O pacote foi identificado como mariadb1011-client-utils e instalado com o comando: sudo dnf install mariadb1011-client-utils -y
 * Download e Preparação do WordPress → Baixar, descompactar e mover os arquivos do WordPress para o diretório raiz do servidor web. cd /tmp wget https://wordpress.org/latest.tar.gz tar -xzf latest.tar.gz sudo cp -r /tmp/wordpress/* /var/www/html/
 * Configuração do wp-config.php → Criar o arquivo de configuração a partir do exemplo e editá-lo com as informações do RDS. cd /var/www/html/ sudo cp wp-config-sample.php wp-config.php sudo nano wp-config.php As 4 linhas críticas foram preenchidas:   DB_NAME, DB_USER, DB_PASSWORD e DB_HOST (com o endpoint do RDS).
 * Ajuste de Permissões de Arquivos → Definir o usuário apache como dono dos arquivos para permitir que o WordPress gerencie temas e plugins. sudo chown -R apache:apache /var/www/html/ sudo chmod -R 775 /var/www/html/
