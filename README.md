@@ -1,4 +1,4 @@
-# Hospedagem de Site Estático na AWS
+# Projeto de Deploy de uma Aplicação WordPress na AWS com IaC
 
 Este é o primeiro projeto prático do meu roadmap de estudos em AWS, com o objetivo de construir e implantar um site estático de forma segura, escalável e com baixa latência.
 
@@ -6,7 +6,7 @@ Este é o primeiro projeto prático do meu roadmap de estudos em AWS, com o obje
 
 ## 🎯 Objetivo
 
-O desafio consistia em publicar uma página web simples (HTML, CSS, JS) na nuvem da AWS, utilizando os serviços essenciais para garantir que o site fosse acessível globalmente através de um domínio personalizado e com certificado de segurança. Opcional: Automatizar esse processo usando IaC
+O desafio era construir uma solução web escalável e segura na AWS, aplicando as melhores práticas de nuvem e Infrastructure as Code (IaC).
 
 ---
 
