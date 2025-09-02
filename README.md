@@ -2,8 +2,8 @@
 
 Este é o primeiro projeto prático do meu roadmap de estudos em DevOps, com o objetivo de construir e implantar uma aplicação web dinâmica (WordPress) de forma segura e escalável na AWS, utilizando infraestrutura como código.
 
-
-![Diagrama do projeto]<img width="1351" height="701" alt="Esquema AWS 1" src="https://github.com/user-attachments/assets/93ab373c-ed84-4a70-9098-436816679de9" />
+## DIAGRAMA DO PROJETO
+<img width="1351" height="701" alt="Esquema AWS 1" src="https://github.com/user-attachments/assets/93ab373c-ed84-4a70-9098-436816679de9" />
 
 
 ---
